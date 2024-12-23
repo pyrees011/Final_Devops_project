@@ -10,17 +10,24 @@ async fn greet() -> impl Responder {
     "Greetings from Rust!"
 }
 
+#[get("/tony")]
+async fn tony() -> impl Responder {
+    "Hello, Tony!"
+}
+
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
     HttpServer::new(|| {
         App::new()
             .service(index)
             .service(greet)
+            .service(tony)
     })
     .bind("0.0.0.0:8080")?
     .run()
     .await
 }
+
 
 #[cfg(test)]
 mod tests {
