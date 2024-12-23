@@ -1,0 +1,22 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=87e8e2e3_002D27c0_002D4dc3_002D952d_002Db754473f98cf/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from CounterPageTest.cs" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;ProjectFile&gt;D875B337-B883-4905-B392-70E3E1DBF9C5/f:CounterPageTest.cs&lt;/ProjectFile&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8ab857cb_002D9cfd_002D4855_002Daf9a_002D704b97ed395e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from CounterPageTest.cs #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;ProjectFile&gt;D875B337-B883-4905-B392-70E3E1DBF9C5/f:CounterPageTest.cs&lt;/ProjectFile&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a6a8c05d_002D5ff6_002D4249_002D904d_002Dcbb6daa80d88/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TonyPageTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::D875B337-B883-4905-B392-70E3E1DBF9C5::net9.0::TestProject.TonyPageTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::D875B337-B883-4905-B392-70E3E1DBF9C5::net9.0::TestProject.TonyPageTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b6d6fc77_002Deb10_002D47d8_002D8a36_002D02e783a10fd4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="HomePageTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Or&gt;
+    &lt;TestAncestor&gt;
+      &lt;TestId&gt;xUnit::D875B337-B883-4905-B392-70E3E1DBF9C5::net9.0::HomePageTests&lt;/TestId&gt;
+    &lt;/TestAncestor&gt;
+    &lt;ProjectFile&gt;D875B337-B883-4905-B392-70E3E1DBF9C5/f:TonyPageTest.cs&lt;/ProjectFile&gt;
+    &lt;ProjectFile&gt;D875B337-B883-4905-B392-70E3E1DBF9C5/f:CounterPageTest.cs&lt;/ProjectFile&gt;
+  &lt;/Or&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
