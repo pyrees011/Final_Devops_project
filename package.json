@@ -10,6 +10,7 @@
   "keywords": [],
   "author": "",
   "repository": {
+    "type": "git",
     "url": "git:github.com/pyrees011/final_devops_project.git"
   },
   "license": "ISC",
