@@ -1,13 +1,12 @@
-
 name: Release
 
 on:
-    push:
-        branches:
-            - release
-    pull_request:
-        branches:
-            - release
+  push:
+    branches:
+      - release
+  pull_request:
+    branches:
+      - release
 
 jobs:
   release:
@@ -19,11 +18,16 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          persist-credentials: false
 
       - name: Set Up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '23'
+          # Add registry-url for npm authentication
+          registry-url: 'https://registry.npmjs.org'
 
       - name: Install Dependencies
         run: npm install
@@ -31,4 +35,7 @@ jobs:
       - name: Run Semantic Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Add NPM token for publishing
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
