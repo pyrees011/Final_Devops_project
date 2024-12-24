@@ -1,5 +1,5 @@
 {
-  "name": "@pyrees011/final_devops_project",
+  "name": "final_devops_project",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,7 +11,10 @@
   "author": "",
   "repository": {
     "type": "git",
-    "url": "git:github.com/pyrees011/final_devops_project.git"
+    "url": "https://github.com/pyrees011/final_devops_project.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "license": "ISC",
   "devDependencies": {
