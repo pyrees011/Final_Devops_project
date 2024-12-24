@@ -1,3 +1,17 @@
+# [1.1.0](https://github.com/pyrees011/final_devops_project/compare/v1.0.0...v1.1.0) (2024-12-24)
+
+
+### Bug Fixes
+
+* using ssh keys for npm ([45b8ed1](https://github.com/pyrees011/final_devops_project/commit/45b8ed111810142f9f0031acc9d421b1a80d0a39))
+* workflow npm registry ([e80615e](https://github.com/pyrees011/final_devops_project/commit/e80615ee85c33dc0e359a3047c09fd8e57916324))
+* workflows npm registry settings ([9dd840d](https://github.com/pyrees011/final_devops_project/commit/9dd840d4c6326670d8846187c870710d4de1fa70))
+
+
+### Features
+
+* add .npmrc file to publish package in npm ([aa02355](https://github.com/pyrees011/final_devops_project/commit/aa02355b6c2db2d23d1aa82b2777029a5e12d2b9))
+
 # 1.0.0 (2024-12-23)
 
 
